@@ -1,10 +1,10 @@
 import pandas as pd
-import numpy as np
-from file_operations import file_methods
-from data_preprocessing import preprocessing
-from data_ingestion import data_loader_prediction
-from application_logging import logger
+
 from Prediction_Raw_Data_Validation.predictionDataValidation import Prediction_Data_validation
+from application_logging import logger
+from data_ingestion import data_loader_prediction
+from data_preprocessing import preprocessing
+from file_operations import file_methods
 
 
 class prediction:
